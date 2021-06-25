@@ -29,7 +29,7 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("/register Thegefoxz112 Thegefoxz112");
+	bot.chat("/login Thegefoxz112");
 });
 
 bot.on('time', function(time) {
